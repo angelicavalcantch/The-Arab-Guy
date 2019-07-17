@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/riyadh.jpg");
+    color: white; 
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+}
+h2 {
+    font-family: 'Macondo Swash Caps', cursive;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.menu li {  
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 25px;
+    margin: 10px;
+    display: inline;
+    align-items: center;
+}
+.about {
+    text-align: center;
+    background-color: white;
+    opacity: 0.95;
+    width: 400px;
+    height: 480px;
+    margin: 0 auto;
+    border-radius: 2%;
+    position: relative
+}
+.profile {
+    margin-top: 40px;
+    border-radius: 10%;
+}
+.name {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+.socialmedia {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.socialmedia img {
+    border-radius: 20px;
+    margin-right: 10px;
+}

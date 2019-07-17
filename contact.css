@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/contact.jpg");
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.menu-icons {
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    transition: all 2s ease-in-out;
+}
+.contact-title h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 60px;
+}
+.contact-title h2 {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 30px;
+}
+form {
+    margin-top: 50px;
+    transition: all 2s ease-in-out;
+}
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input {
+    height: 45px;
+}
+form .submit {
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover {
+    cursor: pointer;
+}
+.socialmedia {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.socialmedia img {
+    border-radius: 20px;
+    margin-right: 10px;
+}

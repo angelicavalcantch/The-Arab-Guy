@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/visitksa.jpeg");
+    height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    margin-left: 400px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.menu-icons {
+    position: absolute;
+    left: 40px;
+}
+.menu-icons img {
+    margin-right: 20px;
+}
+.socialmedia {
+    position: absolute;
+    top: 50px;
+    left: 1150px;
+}
+.socialmedia img {
+    border-radius: 20px;
+    margin-right: 10px;
+}

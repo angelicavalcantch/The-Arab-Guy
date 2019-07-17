@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/aboutme.jpg);
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: 'Special Elite', cursive;
+    margin-left: 700px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.intro {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 25px;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 700px;
+    text-align: justify;
+
+}
+.quote {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-right: 20px;
+    text-align: right;
+}
+.menu-icons {
+    position: absolute;
+    left: 900px;
+    bottom: 100px;
+}
+.menu-icons img {
+    margin-right: 20px;
+}
+.socialmedia {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+.socialmedia img {
+    border-radius: 20px;
+    margin-right: 10px;
+}
